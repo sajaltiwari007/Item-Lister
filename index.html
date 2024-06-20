@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item-Lister</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="head">
+            <h1>Item Lister</h1>
+            <input type="text"  class="filter" placeholder="Search Items..">
+        </div>
+
+        <div class="main">
+            <div class="add_items">
+                <h1 class="add_heading">Add Items</h1>
+                 <form id="type_item">
+                    <input type="text"  class="items_added" placeholder="Enter Items to be added..">
+                    <button class="sumbit_items" value="sumbit">Sumbit</button>
+                 </form>
+            </div>
+
+           <div class="your_items">
+            <h1>Your Items</h1>
+
+            <ul  id="unorder_list">
+                <li class="items">Item 1 <button class="butt" >x</button> </li>
+                <li class="items">Item 2 <button class="butt" >x</button> </li>
+                <li class="items">Item 3 <button class="butt">x</button> </li>
+                <li class="items">Item 4 <button class="butt">x</button> </li>
+            </ul>
+            <br>
+           </div>
+
+        </div>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
