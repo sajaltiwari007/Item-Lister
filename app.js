@@ -1,6 +1,7 @@
 var but = document.querySelector('.sumbit_items');
 var but2 = document.querySelectorAll('.butt');
 var bar = document.querySelector('.filter');
+console.log(but);
 
 const additem = (e)=> {
     e.preventDefault();
